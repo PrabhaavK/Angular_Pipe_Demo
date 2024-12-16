@@ -1,0 +1,32 @@
+<p>numberformat works!</p>
+<h1>Number formate  using Pipe</h1>
+<h2>Decimal Pipe</h2>
+<div class=" card card-block">
+  <div class ="card-block">
+    <h4 class="card-title">Decimal Pipe</h4>
+    <p  ngNonBindable>{{3.14159365 | number:'3.1-2'}}</p>
+    <p>{{3.14159365 | number:'3.1-2'}}</p>
+
+    <p  ngNonBindable>{{3.14159365 | number:'1.4-4'}}</p>
+    <p>{{3.14159365 | number:'1.4-4'}}</p>
+  </div>
+</div>
+
+
+<hr>
+<div class="card card-block">
+  <h4 class = "card-title">PercentPipe"</h4>
+  <div class ="card-text">
+    <p ngNonBindable>{{0.123456 | percent }}</p>
+    <p>{{0.123456 | percent }}</p>
+
+    <p ngNonBindable>{{0.123456 | percent : '2.1-2' }}</p>
+    <p>{{0.123456 | percent : '2.1-2'  }}</p>
+
+
+    <p ngNonBindable>{{42| percent : '10.4-4' }}</p>
+    <p>{{42| percent : '10.4-4'  }}</p>
+
+
+    </div>
+    </div>

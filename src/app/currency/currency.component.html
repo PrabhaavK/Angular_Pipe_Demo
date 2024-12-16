@@ -1,0 +1,22 @@
+<p>currency works!</p>
+<h1>currency formate using pipe </h1>
+
+<div class="card-text">
+  <h1>Name :</h1>
+            <h1>{{name|uppercase}}</h1>
+            <h1>{{name|lowercase}}</h1>
+
+<p ngNonbindable>{{1234.56 | currency:'USD'}}</p>
+<p>{{1234.56 | currency:'USD'}} </p>
+
+
+<p ngNonbindable>{{1234.56 | currency:'CAD':'code'}}</p>
+<p>{{1234.56 | currency:'CAD':'code'}} </p>
+
+
+<p ngNonbindable>{{1234.56 | currency:'INR':'symbol'}}</p>
+<p>{{1234.56 | currency:'INR':'symbol'}} </p>
+
+
+<p ngNonbindable>{{1234.56 | currency:'CAD': 'symbol-narrow'}}</p>
+<p>{{1234.56 | currency:'CAD': 'symbol-narrow'}} </p>
